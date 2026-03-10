@@ -1,0 +1,49 @@
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page .main .Usuario span {
+  display: block;
+  width: 100%;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+.page .main h1 {
+  font-family: Arial;
+  font-size: 24px;
+  text-align: center;
+}
+
+.page .main table {
+  background-color: #efeded;
+}
+
+.page .main table th {
+  background: #b1fdb1;
+}
+
+.page .main table tbody tr:nth-child(odd) {
+  background-color: #8fbbff;
+}
+
+.page .main form {
+  display: flex;
+  flex-direction: column;
+}
+
+.page .main form div {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.page .main form button {
+  margin-top: 0.5rem;
+}
+
+.page .main form label {
+  width: 70px;
+  display: inline-block;
+}
